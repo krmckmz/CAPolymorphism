@@ -15,5 +15,13 @@ public class Program
         animal.Move();
         dog.Move();
 
+        //Created an anonymous type 
+        var animal = new
+        {
+            height = 175,
+            weight = 56,
+            age = 5
+        };
+
     }
 }
