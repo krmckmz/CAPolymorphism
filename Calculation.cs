@@ -4,6 +4,6 @@ public class Calculation
     //OverLoading
     
     void Sum(int a, int b) => Console.WriteLine(a + b);
-    void Sum(int a, int b) => Console.WriteLine(a + b + c);
+    void Sum(int a, int b,int c) => Console.WriteLine(a + b + c);
 
 }
